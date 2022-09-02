@@ -1,0 +1,21 @@
+.login-page-container {
+    margin: 20px;
+    padding: 12px;
+    max-width: 1800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    .login-title {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .new-user-text {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

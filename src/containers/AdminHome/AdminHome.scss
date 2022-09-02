@@ -1,0 +1,14 @@
+.admin-home-container {
+    display: flex;
+    flex-direction: column;
+    .title {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+    .users {
+        display: flex;
+        flex-direction: column;
+        margin: 12px;
+    }
+}

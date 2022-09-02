@@ -1,0 +1,19 @@
+.topbar-container {
+    background-color: rgb(161, 21, 226);
+    height: 60px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .username {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .logout-action {
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+        margin-right: 4px;
+    }
+}
