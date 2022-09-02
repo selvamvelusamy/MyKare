@@ -1,0 +1,1 @@
+export const call = () => {console.log('call')}
